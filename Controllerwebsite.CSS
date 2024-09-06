@@ -1,0 +1,287 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Container-1{
+    background-color: rgba(255, 255, 255, 0.952);
+    color: rgb(21, 21, 21);
+    margin: 60px;
+    padding: 20px;
+    width: 92%;
+    margin-top: 10px;
+}
+.Container-1 ul span li{
+    color: blue;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 60px;
+}
+.Container-1 ul{
+    display:flex;
+    list-style-type:none;
+    text-indent:50px;
+    float:right;
+    margin-right:300px;
+    
+}
+
+li{
+    padding-bottom: 15px;  
+}
+
+ svg{
+    width: 15px;
+    height: 25px;
+}
+ .Container-1 ul span li button{
+    background-color: blue;
+    color: white;
+    /* width: 40px;
+    height: 15px; */
+    padding: 10px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    /* width: 15px;  */
+    border-radius: 7px;
+    font-size: large;
+}
+
+.Container-1 ul span li button:hover{
+  background-color: rgb(69, 69, 255);
+  cursor: pointer;
+}
+
+main .info{
+    display: flex;
+    padding: 50px;
+    margin-bottom: 150px;
+}
+
+main .info .info-box{
+        padding: 20px;
+        margin: 30px;
+        margin-right: 60px;
+}
+
+.info .info-box span{
+    color: blue;
+}
+.info .info-box h1{
+      font-size: 4rem;
+      font-weight: bold;
+   
+}
+
+.info .info-box p{
+     font-size: 1.5rem;
+     margin-top: 10px;
+     
+}
+
+.info .info-box button{
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* width: 15px; */
+    border-radius: 10px;
+    font-size: large;
+    
+}
+
+.info .info-box button:hover{
+    background-color: rgb(58, 58, 250);
+    cursor: pointer;
+}
+
+
+main section{
+    background-color: rgb(224, 224, 224);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    padding-left: 180px;
+}
+main section h3{
+    font-size: 2rem;
+}
+ section p{
+    font-size: 1.5rem;
+}
+ section svg{
+     width: 45px;
+     height: 45px;
+     color: rgb(69, 69, 248);
+    margin-left: 70px;
+    padding: 6px;
+    background-color:  rgb(234, 234, 234);
+    border-radius: 7px;
+}
+.I2{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-bottom: 170px;
+}
+.I2 h1{
+    font-size: 3.2rem;
+    /* padding-bottom: 70px; */
+    white-space: nowrap;
+}
+.I2 h1 span{
+   color: blue;
+   font-weight: bold;
+}
+
+.I2 .image-2{
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+
+.I2 .I2-1{
+    padding-top: 200px;
+    font-size: 1.2rem;
+    margin-right: 110px;
+}
+
+.I2 .I2-1 .I2-B{
+    display: grid;
+}
+
+.Features .F-title h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+.Features .F-title h1 span{
+    color: blue;
+
+}
+
+ .Features section{
+    display: grid;
+    /* padding-right: 200px; */
+    padding-left: 60px;
+    grid-template-columns: repeat(4, 1fr);
+    white-space: nowrap;
+}
+
+ .Features section h3{
+    /* margin-right: 100px; */
+    color: blue;
+    font-size: larger;
+}
+
+ .Features figure{
+    /* padding: 800px; */
+    /* width: 100px;
+    height: 100px; */
+    margin-left: 110px;
+    width: 30%;
+
+}
+ .Video-page .Title h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+ .Video-page .Title h1 span{
+    color: blue;
+
+}
+
+ .Video-page p{ 
+  
+    padding-top: 25px;
+    padding-bottom: 15px;
+    /* width: 15px; */
+    /* margin-right: 50px; */
+    margin-left: 30px;
+    text-align: center;
+    
+}
+
+ .Video-page button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 720px;
+    /* width: 15px; */
+    border-radius: 10px;
+    font-size: large;
+}
+
+.Video-page button:hover{
+    background-color: rgb(69, 69, 255);
+    cursor: pointer;
+}
+
+ .Video-page .Video{
+    /* padding-right: 300px; */
+    margin-left: 240px;
+    
+  
+}
+
+.Testimonial-page{
+    text-align: center;
+    padding-top: 530px;
+}
+.Testimonial-page h1{
+    font-size: 3rem;
+}
+
+.Testimonial-page section{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   padding-left: 20px;
+   padding-right: 20px;
+   gap: 15px;
+}
+.Testimonial-page section div{
+      background-color: white;
+      box-shadow: 0px 0px 8px black;
+      margin: 40px 40px;
+      padding: 10px;
+      border-radius: 4px;
+    
+}
+.Sign-up{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding: 80px; */
+    background-color: rgb(11, 11, 73);
+    color: white;
+    white-space: nowrap;
+    padding: 80px;
+    line-height: 25px;
+}
+footer{
+    background-color: rgb(11, 11, 73);
+    padding-bottom:20px;
+}
+footer hr{
+   color: white;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+
+footer .Copyright p{
+    padding-top: 30px;
+    background-color: rgb(11, 11, 73);
+    color: white;
+    text-align: center;
+
+}
