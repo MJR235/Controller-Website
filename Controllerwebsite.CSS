@@ -6,27 +6,27 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.Container-1{
-    background-color: rgba(255, 255, 255, 0.952);
+.Page-1{
+    background-color: rgba(122, 120, 120, 0.952);
     color: rgb(21, 21, 21);
-    margin: 60px;
-    padding: 20px;
-    width: 92%;
-    margin-top: 10px;
+    top: 0px;
+    padding: 54px;
+    width: 100%;
+    /* margin-top: 10px; */
 }
-.Container-1 ul span li{
+.Page-1 ul span li{
     color: blue;
     font-weight: bold;
     font-size: 2rem;
     margin-right: 60px;
 }
-.Container-1 ul{
+.Page-1 ul{
     display:flex;
-    list-style-type:none;
+    /* list-style-type:none; */
     text-indent:50px;
     float:right;
     margin-right:300px;
-    
+    margin-bottom: 110px;    
 }
 
 li{
@@ -37,9 +37,9 @@ li{
     width: 15px;
     height: 25px;
 }
- .Container-1 ul span li button{
+ .Page-1 ul span li button{
     background-color: blue;
-    color: white;
+    color: rgb(13, 0, 255);
     /* width: 40px;
     height: 15px; */
     padding: 10px; 
@@ -50,39 +50,40 @@ li{
     font-size: large;
 }
 
-.Container-1 ul span li button:hover{
+.Page-1 ul span li button:hover{
   background-color: rgb(69, 69, 255);
   cursor: pointer;
 }
 
-main .info{
+.Page-2{
     display: flex;
     padding: 50px;
     margin-bottom: 150px;
 }
 
-main .info .info-box{
-        padding: 20px;
-        margin: 30px;
+ .Page-2 .Page2-box{
+        /* padding: 20px;
+        margin: 30px; */
         margin-right: 60px;
 }
 
-.info .info-box span{
+.Page-2 .Page2-box span{
     color: blue;
 }
-.info .info-box h1{
+.Page-2.Page2-box h1{
       font-size: 4rem;
       font-weight: bold;
    
 }
 
-.info .info-box p{
+.Page-2 .Page2-box p{
+    text-align: center;
      font-size: 1.5rem;
-     margin-top: 10px;
+     margin-top: 3px;
      
 }
 
-.info .info-box button{
+.Page-2 button{
     margin-top: 20px;
     background-color: blue;
     color: white;
@@ -95,13 +96,18 @@ main .info .info-box{
     
 }
 
-.info .info-box button:hover{
+.Page-2  button:hover{
     background-color: rgb(58, 58, 250);
     cursor: pointer;
 }
 
+.Page-2 .image-1{
+    width: 40px;
+    height: 30px;
+}
 
-main section{
+
+ section{
     background-color: rgb(224, 224, 224);
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -110,7 +116,7 @@ main section{
     margin-bottom: 100px;
     padding-left: 180px;
 }
-main section h3{
+ section h3{
     font-size: 2rem;
 }
  section p{
@@ -125,48 +131,48 @@ main section h3{
     background-color:  rgb(234, 234, 234);
     border-radius: 7px;
 }
-.I2{
+.Page-3{
     display: flex;
     padding-left: 50px;
     padding-top: 50px;
     margin-bottom: 170px;
 }
-.I2 h1{
+.Page-3 h1{
     font-size: 3.2rem;
     /* padding-bottom: 70px; */
     white-space: nowrap;
 }
-.I2 h1 span{
+.Page-3 h1 span{
    color: blue;
    font-weight: bold;
 }
 
-.I2 .image-2{
+.Page-3 .image-2{
     padding-top: 100px;
     margin-left: 100px;
 }
 
 
-.I2 .I2-1{
+.Page-3 .Page3-box{
     padding-top: 200px;
     font-size: 1.2rem;
     margin-right: 110px;
 }
 
-.I2 .I2-1 .I2-B{
+.Page-3 .Page3-box .Page3-points{
     display: grid;
 }
 
-.Features .F-title h1 {
+.Page-4 .Page4-title h1 {
     font-size: 4rem;
     text-align: center;
 }
-.Features .F-title h1 span{
+.Page-4 .Page4-title h1 span{
     color: blue;
 
 }
 
- .Features section{
+ .Page-4 section{
     display: grid;
     /* padding-right: 200px; */
     padding-left: 60px;
@@ -174,13 +180,13 @@ main section h3{
     white-space: nowrap;
 }
 
- .Features section h3{
+ .Page-4 section h3{
     /* margin-right: 100px; */
     color: blue;
     font-size: larger;
 }
 
- .Features figure{
+ .Page-4 figure{
     /* padding: 800px; */
     /* width: 100px;
     height: 100px; */
@@ -188,17 +194,17 @@ main section h3{
     width: 30%;
 
 }
- .Video-page .Title h1{
+ .Page-5 .Page5-title h1{
     text-align: center;
     font-size: 3rem;
 }
 
- .Video-page .Title h1 span{
+ .Page-5 .Page5-title h1 span{
     color: blue;
 
 }
 
- .Video-page p{ 
+ .Page-5 p{ 
   
     padding-top: 25px;
     padding-bottom: 15px;
@@ -209,7 +215,7 @@ main section h3{
     
 }
 
- .Video-page button{
+ .Page-5 button{
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: blue;
@@ -217,57 +223,72 @@ main section h3{
     padding: 10px;
     padding-left: 25px;
     padding-right: 25px;
-    margin-left: 720px;
+    margin-left: 920px;
+    margin-right: 500px;
     /* width: 15px; */
     border-radius: 10px;
     font-size: large;
 }
 
-.Video-page button:hover{
+.Page-5 button:hover{
     background-color: rgb(69, 69, 255);
     cursor: pointer;
 }
 
- .Video-page .Video{
+ .Page-5 .LargeScreen-Video{
     /* padding-right: 300px; */
     margin-left: 240px;
-    
-  
+      
+   }
+
+   .Page-5 .SmallScreen-Video{
+    display: none;
+    margin-right: 540px;
+    aspect-ratio: 16/10;
+    /* width: 100%; */
+ 
 }
 
-.Testimonial-page{
+.Page-6{
     text-align: center;
-    padding-top: 530px;
+    padding-top: 230px;
 }
-.Testimonial-page h1{
-    font-size: 3rem;
+.Page-6 h1{
+    font-size: 3.5rem;
 }
 
-.Testimonial-page section{
+.Page-6 section{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    padding-left: 20px;
    padding-right: 20px;
    gap: 15px;
 }
-.Testimonial-page section div{
+.Page-6 .title p{
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+}
+.Page-6 section div{
       background-color: white;
       box-shadow: 0px 0px 8px black;
       margin: 40px 40px;
       padding: 10px;
+      padding-bottom: 10px;
       border-radius: 4px;
     
 }
 .Sign-up{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* padding: 80px; */
-    background-color: rgb(11, 11, 73);
     color: white;
     white-space: nowrap;
     padding: 80px;
     line-height: 25px;
+    width: 1507px;
+    margin-right: 200px;
 }
+
+
 footer{
     background-color: rgb(11, 11, 73);
     padding-bottom:20px;
@@ -275,7 +296,7 @@ footer{
 footer hr{
    color: white;
    margin-left: 80px;
-   margin-right: 80px;
+   margin-right: 100px;
 }
 
 footer .Copyright p{
@@ -283,5 +304,1491 @@ footer .Copyright p{
     background-color: rgb(11, 11, 73);
     color: white;
     text-align: center;
+   
 
 }
+
+
+@media only screen and (min-width : 200px) {
+   
+    .Page-1{
+        background-color: white;
+        color: rgb(21, 21, 21);
+        margin: 60px;
+        padding: 20px;
+        width: 92%;
+        margin-top: 10px;
+        }
+    .Page-1 ul span li{
+        color: blue;
+        font-weight: bold;
+        font-size: 2rem;
+        /* margin-right: 60px; */
+    }
+    .Page-1 ul{
+        display: none;
+        list-style-type:none;
+        text-indent:50px;
+        float:right;
+        margin-right:300px;
+        
+    }
+        
+    
+.Page-2{
+    display: block;
+    padding: 0px;
+    margin-left: 13px;
+  
+    margin-bottom: 150px;
+}
+
+ .Page-2 .Page2-box{
+        padding: 0px;
+        margin: 0px;
+        /* margin-right: 60px; */
+        text-align: center;
+}
+
+.Page-2 .Page2-box span{
+    color: blue;
+}
+.Page-2.Page2-box h1{
+      font-size: 0.5rem;
+      font-weight: bold;
+      text-align: center;
+   
+}
+
+.Page-2 .Page2-box p{
+     font-size: 1rem;
+     margin-top: 10px;
+     text-align: center;
+
+    }
+
+.Page-2 button{
+    
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 18px;
+    /* width: 15px; */
+    border-radius: 10px;
+    font-size: large;
+    
+}
+
+.Page-2  button:hover{
+    background-color: rgb(58, 58, 250);
+    cursor: pointer;
+}
+
+.Page-2 .image-1{
+    display: none;
+    width: 40px;
+    height: 30px;
+}
+
+
+            section{
+                background-color: white;
+                display: block;
+                text-align: center;
+                padding-left: 10px;
+                }
+            
+              section h3{
+               font-size: 2rem;
+               }
+        
+               section p{
+                font-size: 1.5rem;
+                padding-bottom: 50px;
+                }
+        
+               section svg{
+                 width: 45px;
+                 height: 45px;
+                 color: rgb(69, 69, 248);
+                margin-left: 10px;
+                padding: 6px;
+                background-color:  rgb(234, 234, 234);
+                border-radius: 7px;
+                }
+                .Page-3{
+                    display: block;
+                    padding-left: 50px;
+                    padding-top: 50px;
+                    margin-bottom: 170px;
+                }
+                .Page-3 h1{
+                    font-size: 1.5rem;
+                    padding-top: 80px;
+                    margin-left: 0px;
+                    width: 60px;
+                }
+                .Page-3 h1 br{
+                    display: contents;
+                }
+                .Page-3 h1 span{
+                   color: blue;
+                   font-weight: bold;
+                }
+                
+                .Page-3 .image-2{
+                    display: none;
+                    padding-top: 100px;
+                    margin-left: 40px;
+                }
+        
+                .Page-3 .Page3-box{
+                    padding-top: 30px;
+                    font-size: 1.2rem;
+                    padding-right: 2px;
+                    margin-right: 30px;
+                }
+                
+                .Page-3 .Page3-box .Page3-points{
+                    display: grid;
+                    grid-template-columns: repeat(1,1fr);
+                }
+        
+                .Page-4 .Page4-title h1 {
+                    font-size: 2rem;
+                    text-align: center;
+                }
+                .Page-4 .Page4-title h1 span{
+                    color: blue;
+                
+                }
+                
+                 .Page-4 section{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    /* padding-right: 200px; */
+                    padding-left: 20px;
+                    white-space: nowrap;
+                }
+
+                .Page-4 section div{
+                    padding-top: 30px;
+                    align-items: center;
+                    margin-right: 10px;
+                }
+                
+                 .Page-4 section h3{
+                    /* margin-right: 100px; */
+                    color: blue;
+                    font-size: medium;
+                   
+                }
+                
+                 .Page-4 figure{
+                    display: none;
+                    margin-left: 70px;
+                    width: 10px;
+                    padding-bottom: 130px;
+                
+                }
+                .Page-5 .Page5-title h1{
+                    text-align: center;
+                    font-size: 2rem;
+                    padding-top: 190px;
+                }
+                
+                 .Page-5 .Page5-title h1 span{
+                    color: blue;
+                
+                }
+                
+                 .Page-5 p{ 
+                    padding-top: 25px;
+                    padding-bottom: 10px;
+                    margin-left: 8px;
+                }
+                
+                 .Page-5 button{
+                    background-color: blue;
+                    color: white;
+                    padding: 10px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    margin-left: 60px;
+                    border-radius: 10px;
+                    font-size: small;
+                }
+                
+                .Page-5 button:hover{
+                    background-color: rgb(69, 69, 255);
+                    /* cursor: pointer; */
+                }
+
+               
+    .Page-5 .SmallScreen-Video{
+        display: none;
+        margin-right: 240px;
+        margin-left: 200px;
+        aspect-ratio: 16/9;
+        /* width: 100%; */
+     
+    }
+
+     .Page-5 .LargeScreen-Video{
+        display: none;
+        margin-right: 540px;
+        aspect-ratio: 16/10;
+        /* width: 100%; */
+     
+    }
+                
+                .Page-6{
+                    text-align: center;
+                    padding-top: 230px;
+                }
+                .Page-6 h1{
+                    font-size: 1.5rem;
+                }
+                
+                .Page-6 section{
+                   display: grid;
+                   grid-template-columns: repeat(1, 1fr);
+                   padding-left: 0px;
+                   padding-right: 20px;
+                   gap: 15px;
+                }
+                .Page-6 section div{
+                      background-color: white;
+                      box-shadow: 0px 0px 8px black;
+                      margin: 40px 40px;
+                      padding: 10px;
+                      border-radius: 4px;
+                    
+                }
+                .Sign-up{
+                    text-align: left;
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    /* padding: 80px; */
+                    background-color: rgb(11, 11, 73);
+                    color: white;
+                    white-space: nowrap;
+                    padding: 5px;
+                    line-height: 25px;
+                    
+                }
+
+                .Sign-up .Signup-Text{
+                    margin-right: 30px;
+                    font-size:  1.5rem;
+                }
+                .Sign-up .Signup-Text div p{
+                    font-size: 1rem;
+                }
+                .Sign-up .Signup-Text span br{
+                    display: contents;
+                }
+
+                footer{
+                    background-color: rgb(11, 11, 73);
+                    padding-bottom:20px; 
+                }
+                   footer hr{
+                   color: white;
+                   margin-left: 10px;
+                   margin-right: 10px;
+                }
+                footer .Copyright p{
+                    padding-top: 30px;
+                    background-color: rgb(11, 11, 73);
+                    font-size:  0.5rem;
+                    color: white;
+                    text-align: center;
+                
+                }
+    
+}
+
+@media only screen and (min-width : 320px) {
+    /* body{
+     background-color: green;
+    }  */
+    .Page-1{
+        background-color: white;
+        color: rgb(21, 21, 21);
+        margin: 60px;
+        padding: 20px;
+        width: 92%;
+        margin-top: 10px;
+        }
+    .Page-1 ul span li{
+        color: blue;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-right: 60px;
+    }
+    .Page-1 ul{
+        display: none;
+        list-style-type:none;
+        text-indent:50px;
+        float:right;
+        margin-right:300px;
+        
+    }
+
+    main .Page-2{
+        display: block;
+        padding: 10px;
+        margin-bottom: 90px;
+
+    }
+
+    .Page-2 {
+        margin-bottom: 10px;
+        }
+    
+          .Page-2 .Page2-box{
+             text-align: center;
+           
+            }
+    
+          .Page-2 .Page2-box span{
+            color: blue;
+            }
+    
+          .Page-2 .Page2-box h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+            
+            }
+    
+          .Page-2 .Page2-box p{
+            font-size: 1rem;
+            margin-top: 10px;
+            }
+    
+          .Page-2 .Page2-box button{
+            margin-top: 20px;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            /* width: 15px; */
+            border-radius: 10px;
+            font-size: large;
+            }
+        
+           .Page-2 .Page2-box button:hover{
+            background-color: rgb(58, 58, 250);
+            cursor: pointer;
+            }
+
+            .Page-2 .image-1{
+                width: 40px;
+                height: 30px;
+                
+            }
+
+
+            section{
+                background-color: white;
+                display: block;
+                text-align: center;
+                padding-left: 10px;
+                }
+            
+              section h3{
+               font-size: 2rem;
+               }
+        
+               section p{
+                font-size: 1.5rem;
+                padding-bottom: 50px;
+                }
+        
+               section svg{
+                 width: 45px;
+                 height: 45px;
+                 color: rgb(69, 69, 248);
+                margin-left: 10px;
+                padding: 6px;
+                background-color:  rgb(234, 234, 234);
+                border-radius: 7px;
+                }
+                .Page-3{
+                    display: block;
+                    padding-top: 30px;
+                    margin-bottom: 170px;
+                    
+                }
+                .Page-3 h1{
+                    font-size: 1.5rem;
+                    padding-top: 80px;
+                    white-space: nowrap;
+                    margin-left: 7px;
+                }
+                .Page-3 h1 span{
+                   color: blue;
+                   font-weight: bold;
+                }
+                .Page-3 h1 br{
+                    display: none;
+                }
+                
+                .Page-3 .image-2{
+                    padding-top: 100px;
+                    margin-left: 40px;
+                }
+        
+                .Page-3 .Page3-box{
+                    padding-top: 30px;
+                    font-size: 1.2rem;
+                    padding-right: 2px;
+                    margin-right: 30px;
+                }
+                
+                .Page-3 .Page3-box .Page3-points{
+                    display: grid;
+                    grid-template-columns: repeat(1,1fr);
+                }
+        
+                .Page-4 .Page4-title h1 {
+                    font-size: 2rem;
+                    text-align: center;
+                }
+                .Page-4 .Page4-title h1 span{
+                    color: blue;
+                
+                }
+                
+                 .Page-4 section{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    /* padding-right: 200px; */
+                    padding-left: 60px;
+                    white-space: nowrap;
+                }
+
+                .Page-4 section div{
+                    padding-top: 30px;
+                    align-items: center;
+                    margin-right: 50px;
+                }
+                
+                 .Page-4 section h3{
+                    /* margin-right: 100px; */
+                    color: blue;
+                    font-size: medium;
+                   
+                }
+                
+                 .Page-4 figure{
+                    margin-left: 70px;
+                    width: 10px;
+                    padding-bottom: 130px;
+                
+                }
+                .Page-5 .Page5-title h1{
+                    text-align: center;
+                    font-size: 2rem;
+                    padding-top: 190px;
+                }
+                
+                 .Page-5 .Page5-title h1 span{
+                    color: blue;
+                
+                }
+                
+                 .Page-5 p{ 
+                    padding-top: 25px;
+                    padding-bottom: 10px;
+                    margin-left: 8px;
+                }
+                
+                 .Page-5 button{
+                    background-color: blue;
+                    color: white;
+                    padding: 10px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    margin-left: 120px;
+                    border-radius: 10px;
+                    font-size: small;
+                }
+                
+                .Page-5 button:hover{
+                    background-color: rgb(69, 69, 255);
+                    /* cursor: pointer; */
+                }
+
+               
+    .Page-5 .SmallScreen-Video{
+        display: contents;
+        margin-right: 240px;
+        margin-left: 200px;
+        aspect-ratio: 16/9;
+        /* width: 100%; */
+     
+    }
+
+     .Page-5 .LargeScreen-Video{
+        display: none;
+        margin-right: 540px;
+        aspect-ratio: 16/10;
+        /* width: 100%; */
+     
+    }
+                
+                .Page-6{
+                    text-align: center;
+                    padding-top: 230px;
+                }
+                .Page-6 h1{
+                    font-size: 3rem;
+                }
+                
+                .Page-6 section{
+                   display: grid;
+                   grid-template-columns: repeat(1, 1fr);
+                   padding-left: 20px;
+                   padding-right: 20px;
+                   gap: 15px;
+                }
+                .Page-6 section div{
+                      background-color: white;
+                      box-shadow: 0px 0px 8px black;
+                      margin: 40px 40px;
+                      padding: 10px;
+                      border-radius: 4px;
+                    
+                }
+                .Sign-up{
+                    text-align: left;
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    /* padding: 80px; */
+                    background-color: rgb(11, 11, 73);
+                    color: white;
+                    white-space: nowrap;
+                    padding: 5px;
+                    line-height: 25px;
+                    
+                }
+
+                .Sign-up .Signup-Text{
+                    margin-right: 30px;
+                }
+                
+                .Sign-up .Signup-Text span br{
+                    display: contents;
+                }
+
+                footer{
+                    background-color: rgb(11, 11, 73);
+                    padding-bottom:20px; 
+                }
+                   footer hr{
+                   color: white;
+                   margin-left: 10px;
+                   margin-right: 10px;
+                }
+                footer .Copyright p{
+                    padding-top: 30px;
+                    background-color: rgb(11, 11, 73);
+                    color: white;
+                    text-align: center;
+                
+                }
+    
+    
+}
+
+
+@media only screen and (min-width : 768px) {
+    /* body{
+        background-color: rgb(78, 90, 219);
+    } */
+    .Page-1{
+        /* background-color: rgb(174, 14, 14); */
+        display: block;
+        color: rgb(21, 21, 21);
+        margin: 60px;
+        padding: 20px;
+        width: 92%;
+        margin-top: 10px;
+        }
+        
+    .Page-1 ul span li{
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-right: 10px;
+    }
+    .Page-1 ul{
+        display: flex;
+        list-style-type:none;
+        text-indent:50px;
+        float:right;
+        margin-right:300px;
+        
+    }
+
+    li{
+        padding-bottom: 15px;  
+    }
+    
+     svg{
+        width: 15px;
+        height: 25px;
+    }
+     .Page-1 ul span li button{
+        background-color: blue;
+        color: white;
+        /* width: 40px;
+        height: 15px; */
+        padding: 10px; 
+        padding-left: 15px;
+        padding-right: 15px;
+        /* width: 15px;  */
+        border-radius: 7px;
+        font-size: large;
+    }
+    
+    .Page-1 ul span li button:hover{
+      background-color: rgb(69, 69, 255);
+      cursor: pointer;
+    }
+
+    .Page-2{
+        padding: 50px;
+        margin-bottom: 150px;
+        display: flex;
+    }
+    
+     .Page-2 .Page2-box{
+            padding: 20px;
+            margin: 30px;
+            margin-left: 10px;
+           
+    }
+    
+    .Page-2 .Page2-box  span{
+        color: blue;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .Page-2 .Page2-box h1{
+          display: flex;
+          font-size: 3rem;
+          font-weight: bold;
+       
+    }
+    
+    .Page-2 .Page2-box p{
+        text-align: left;
+        display: flex;
+         font-size: 1.5rem;
+         padding-top: 40px;
+         
+    }
+    
+    .Page-2 button{
+        margin-top: 20px;
+        padding-bottom: 30px;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+       margin-left: 80px;
+        border-radius: 10px;
+        font-size: large;
+        
+    }
+    
+    .Page-2 button:hover{
+        background-color: rgb(58, 58, 250);
+        cursor: pointer;
+    }
+
+    .Page-2 .image-1{
+        display: contents;
+        padding-top: 40px;
+        padding-bottom: 170px;
+        width: 40px;
+        height: 30px;
+        
+    }
+
+    
+     section{
+        background-color: rgb(224, 224, 224);
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-bottom: 100px;
+    }
+     section h3{
+        font-size: 2rem;
+    }
+     section p{
+        font-size: 1.5rem;
+    }
+     section svg{
+         width: 45px;
+         height: 45px;
+         color: rgb(69, 69, 248);
+        margin-left: 35px;
+        padding: 6px;
+        background-color:  rgb(234, 234, 234);
+        border-radius: 7px;
+    }
+    .Page-3{
+     
+        padding-top: 50px;
+        margin-bottom: 170px;
+    }
+    .Page-3 h1{
+        font-size: 3rem;
+        padding-bottom: 10px;
+        white-space: nowrap;
+    }
+    .Page-3 h1 span{
+       color: blue;
+       font-weight: bold;
+    }
+
+    .Page-3 h1 br{
+        display: none;
+    }
+    
+    .Page-3 .image-2{
+        padding-top: 100px;
+        display: contents;
+    }
+    
+    
+    .Page-3 .Page3-box{
+        padding-top: 200px;
+        font-size: 2rem;
+        margin-left: 20px;
+       
+    }
+    
+    .Page-3 .Page3-box .Page3-points{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .Page-4 .Page4-title h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .Page-4 .Page4-title h1 span{
+        color: blue;
+    
+    }
+    
+     .Page-4 section{
+        display: grid;
+        /* padding-right: 200px; */
+        padding-left: 60px;
+        grid-template-columns: repeat(2, 1fr);
+        white-space: nowrap;
+    }
+    
+     .Page-4 section h3{
+        /* margin-right: 100px; */
+        color: blue;
+        font-size: larger;
+    }
+    
+     .Page-4 figure{
+        /* padding: 800px; */
+        width: 300px;
+        height: 250px;
+        margin-left: 110px;
+        width: 30%;
+    
+    }
+     .Page-5 .Page5-title h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    
+     .Page-5 .Page5-title h1 span{
+        color: blue;
+    
+    }
+    
+     .Page-5 p{ 
+      
+        padding-top: 25px;
+        padding-bottom: 15px;
+        /* width: 15px; */
+        /* margin-right: 50px; */
+        margin-left: 30px;
+        text-align: center;
+        
+    }
+    
+     .Page-5 button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 350px;
+        /* width: 15px; */
+        border-radius: 10px;
+        font-size: large;
+    }
+    
+    .Page-5 button:hover{
+        background-color: rgb(69, 69, 255);
+        cursor: pointer;
+    }
+    
+    .Page-5 .SmallScreen-Video{
+        display: none;
+        margin-right: 540px;
+        aspect-ratio: 16/10;
+        /* width: 100%; */
+     
+    }
+
+     .Page-5 .LargeScreen-Video{
+        display: contents;
+        margin-right: 540px;
+        aspect-ratio: 16/10;
+        /* width: 100%; */
+     
+    }
+
+
+    
+    .Page-6{
+        text-align: center;
+        padding-top: 230px;
+    }
+    .Page-6 h1{
+        font-size: 3rem;
+    }
+    
+    .Page-6 section{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       padding-left: 20px;
+       padding-right: 20px;
+       gap: 15px;
+    }
+    .Page-6 section div{
+          background-color: white;
+          box-shadow: 0px 0px 8px black;
+          margin: 40px 40px;
+          padding: 10px;
+          border-radius: 4px;
+        
+    }
+    .Sign-up .Signup-Text{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        background-color: rgb(11, 11, 73);
+        color: white;
+        white-space: nowrap;
+        padding: 80px;
+        /* padding-right: 00px; */
+        line-height: 25px;
+    }
+    .Sign-up{
+        padding-bottom: 2px;
+    }
+
+    .Sign-up .Signup-Text span br{
+        display: none;
+    }
+
+    footer{
+        background-color: rgb(11, 11, 73);
+        /* padding-bottom:20px; */
+    }
+    footer hr{
+       color: white;
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+    
+    footer .Copyright p{
+        /* padding-top: 30px; */
+        background-color: rgb(11, 11, 73);
+        color: white;
+        text-align: center;
+    
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    /* body{
+        background-color: rgb(174, 14, 14);
+    } */
+
+    .Page-1{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 55px;
+        width: 100%;
+       top: 0px;
+    }
+
+        
+    .Page-1 ul span li{
+        color: rgb(21, 0, 255);
+        font-weight: bold;
+        font-size: 2rem;
+        margin-right: 60px;
+    }
+    .Page-1 ul{
+        display: flex;
+        list-style-type:none;
+        text-indent:50px;
+        float:right;
+        margin-right:300px;
+  
+        
+    }
+
+    li{
+        padding-bottom: 5px;  
+    }
+    
+     svg{
+        width: 15px;
+        height: 25px;
+    }
+     .Page-1 ul span li button{
+        background-color: blue;
+        color: white;
+        padding: 10px; 
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 10px;
+        font-size: large;
+    }
+    
+    .Page-1 ul span li button:hover{
+      background-color: rgb(69, 69, 255);
+      cursor: pointer;
+    }
+
+    .Page-2{
+        /* padding: 50px; */
+        margin-bottom: 150px;
+        /* display: flex; */
+    }
+    
+     .Page-2 .Page2-box{
+            /* margin: 30px; */
+            margin-left: 10px;
+           
+    }
+    
+    .Page-2 .Page2-box  span{
+        color: blue;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .Page-2 .Page2-box h1{
+          display: block;
+          text-align: center;
+          font-size: 5.5rem;
+          font-weight: bold;
+       
+    }
+    .Page-2 .Page2-box h1 br{
+        display: none;
+    }
+    
+    .Page-2 .Page2-box p{
+        text-align: center;
+        display: block;
+         font-size: 2.5rem;
+         padding-top: 2px;
+     
+         
+    }
+    
+    .Page-2 button{
+        margin-top: 40px;
+        padding-bottom: 30px;
+        background-color: blue;
+        color: white;
+        padding: 15px 30px ;
+        /* padding-left: 60px;
+        padding-right: 60px; */
+       margin-left: 650px;
+        border-radius: 10px;
+        font-size: large;
+        font-size: 2.5rem;
+        
+    }
+    
+    .Page-2 button:hover{
+        background-color: rgb(58, 58, 250);
+        cursor: pointer;
+    }
+
+    .Page-2 .image-1{
+        display: block;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 170px;
+        width: 40px;
+        height: 30px;
+        margin-left: 470px;
+        margin-bottom: 400px;
+        
+    }
+
+    
+     section{
+        background-color: rgb(224, 224, 224);
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+        margin-bottom: 100px;
+    }
+     section h3{
+        font-size: 2rem;
+    }
+     section p{
+        font-size: 1.5rem;
+    }
+     section svg{
+         width: 45px;
+         height: 45px;
+         color: rgb(69, 69, 248);
+        margin-left: 35px;
+        padding: 6px;
+        background-color:  rgb(234, 234, 234);
+        border-radius: 7px;
+    }
+    .Page-3{
+     
+        padding-top: 20px;
+        margin-bottom: 170px;
+    }
+    .Page-3 h1{
+        font-size: 3rem;
+        padding-bottom: 10px;
+        white-space: nowrap;
+    }
+    .Page-3 h1 span{
+       color: blue;
+       font-weight: bold;
+    }
+    
+    .Page-3 h1 br{
+        display: none;
+    }
+
+    .Page-3 .image-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+    
+    
+    .Page-3 .Page3-box{
+        padding-top: 200px;
+        font-size: 2rem;
+        margin-left: 20px;
+       
+    }
+    
+    .Page-3 .Page3-box .Page3-points{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .Page-4 .Page4-title h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .Page-4 .Page4-title h1 span{
+        color: blue;
+    
+    }
+    
+     .Page-4 section{
+        display: grid;
+        /* padding-right: 200px; */
+        padding-left: 60px;
+        grid-template-columns: repeat(4, 1fr);
+        white-space: nowrap;
+    }
+    
+     .Page-4 section h3{
+        /* margin-right: 100px; */
+        color: blue;
+        font-size: larger;
+    }
+    
+     .Page-4 figure{
+        /* padding: 800px; */
+        /* width: 100px;
+        height: 100px; */
+        margin-left: 110px;
+        width: 30%;
+    
+    }
+     .Page-5 .Page5-title h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    
+     .Page-5 .Page5-title h1 span{
+        color: blue;
+    
+    }
+    
+     .Page-5 p{ 
+      
+        padding-top: 25px;
+        padding-bottom: 15px;
+        /* width: 15px; */
+        /* margin-right: 50px; */
+        margin-left: 30px;
+        text-align: center;
+        
+    }
+    
+     .Page-5 button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 700px;
+        /* width: 15px; */
+        border-radius: 10px;
+        font-size: large;
+    }
+    
+    .Page-5 button:hover{
+        background-color: rgb(69, 69, 255);
+        cursor: pointer;
+    }
+    
+    .Page-5 .SmallScreen-Video{
+        display: none;
+        margin-right: 540px;
+        aspect-ratio: 16/10;
+        /* width: 100%; */
+     
+    }
+
+     .Page-5 .LargeScreen-Video{
+        display: contents;
+        margin-right: 540px;
+        aspect-ratio: 16/10;
+        /* width: 100%; */
+     
+    }
+
+
+    
+    .Page-6{
+        text-align: center;
+        padding-top: 230px;
+    }
+    .Page-6 h1{
+        font-size: 3rem;
+    }
+    
+    .Page-6 section{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       padding-left: 20px;
+       padding-right: 20px;
+       gap: 15px;
+    }
+    .Page-6 section div{
+          background-color: white;
+          box-shadow: 0px 0px 8px black;
+          margin: 40px 40px;
+          padding: 10px;
+          border-radius: 4px;
+        
+    }
+    .Sign-up .Signup-Text{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        color: white;
+        white-space: nowrap;
+        padding: 80px;
+        /* padding-right: 00px; */
+        line-height: 25px;
+        width: 1300px;
+    }
+    .Sign-up{
+        padding-bottom: 2px;
+        margin-right: 400px;
+    }
+
+    .Sign-up .Signup-Text span br{
+        display: none;
+    }
+
+    footer{
+        background-color: rgb(11, 11, 73);
+        /* padding-bottom:20px; */
+        
+    }
+    footer hr{
+       color: white;
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+    
+    footer .Copyright p{
+        /* padding-top: 30px; */
+        background-color: rgb(11, 11, 73);
+        color: white;
+        text-align: center;
+        font-size: medium;
+    
+    }
+}
+
+/* @media only screen and (min-width: 350px)
+{
+    
+
+
+        main .Page-2 {
+        padding: 10px;
+        margin-bottom: 150px;
+    }
+    
+    
+    main .Page-2.Page-2-box{
+        padding: 10px;
+        margin: 10px;
+        margin-right: 15px;
+    }
+    
+    .info .info-box span{
+    color: blue;
+    }
+    .info .info-box h1{
+      font-size: 2rem;
+      font-weight: bold;
+    
+    }
+    
+    .info .info-box p{
+     font-size: 1rem;
+     margin-top: 10px;
+     
+    }
+    
+    main section{
+        background-color: rgb(224, 224, 224);
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        padding-left: 20px;
+    
+    }
+    main section h3{
+        font-size: 1.5rem;
+    }
+     section p{
+        font-size: 1rem;
+    }
+     section svg{
+         width: 45px;
+         height: 45px;
+         color: rgb(69, 69, 248);
+        margin-left: 70px;
+        padding: 6px;
+        background-color:  rgb(234, 234, 234);
+        border-radius: 7px;
+    }
+    
+    
+    
+    
+    .I2{
+        display: block;
+        padding-left: 10px;
+        padding-top: 50px;
+        margin-bottom: 170px;
+    }
+    .I2 h1{
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    .I2 h1 span{
+       color: blue;
+       font-weight: bold;
+    }
+    
+    .I2 .I2-1{
+        padding-top: 200px;
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+    
+    .I2 .I2-1 .I2-B{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    
+    
+    
+    .Features .F-title h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .Features .F-title h1 span{
+        color: blue;
+    
+    }
+    
+     .Features section{
+        display: grid;
+        padding-left: 60px;
+        grid-template-columns: repeat(1, 1fr);
+        white-space: nowrap;
+    }
+    
+     .Features section h3{
+        color: blue;
+        font-size: medium;
+    }
+    
+     .Features figure{
+        margin-left: 110px;
+        width: 30%;
+    
+    }
+    
+    .Video-page .Title h1{
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+     .Video-page .Title h1 span{
+        color: blue;
+    
+    }
+    
+     .Video-page p{ 
+      
+        padding-top: 25px;
+        padding-bottom: 15px;
+        margin-left: 30px;
+        text-align: center;
+        
+    }
+    
+     .Video-page button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 720px;
+        border-radius: 10px;
+        font-size: large;
+    }
+    
+    .Video-page button:hover{
+        background-color: rgb(69, 69, 255);
+        cursor: pointer;
+    }
+    
+     .Video-page .Video{
+    
+        width: 100px;
+        height: 50px;
+      
+    }
+    iframe{
+        width: 200px;
+    }
+    
+    .Testimonial-page{
+        text-align: center;
+        padding-top: 530px;
+    }
+    .Testimonial-page h1{
+        font-size: 1rem;
+    }
+    
+    .Testimonial-page section{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       padding-left: 20px;
+       padding-right: 20px;
+       gap: 15px;
+    }
+    .Testimonial-page section div{
+          background-color: white;
+          box-shadow: 0px 0px 8px black;
+          margin: 40px 40px;
+          padding: 10px;
+          border-radius: 4px;
+        
+    }
+    .Sign-up{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: rgb(11, 11, 73);
+        color: white;
+        white-space: nowrap;
+        padding: 80px;
+        line-height: 25px;
+    }
+    footer{
+        background-color: rgb(11, 11, 73);
+        padding-bottom:20px;
+    }
+    footer hr{
+       color: white;
+       margin-left: 80px;
+       margin-right: 80px;
+    }
+    
+    footer .Copyright p{
+        padding-top: 30px;
+        background-color: rgb(11, 11, 73);
+        color: white;
+        text-align: center;
+    
+    }
+    
+    
+    
+} *\
